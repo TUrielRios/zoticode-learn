@@ -1,0 +1,25 @@
+/* src/components/TestimonialsSection.module.css */
+.testimonialsSection {
+    background-color: #0b1a2d;
+    padding: 80px;
+    height: 90vh;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .testimonialGrid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  

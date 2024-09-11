@@ -1,0 +1,39 @@
+/* ActividadDetail.module.css */
+
+.container {
+    background-color: #fce4ec; /* Fondo rosa claro */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    font-size: 1.8rem;
+    color: #c2185b; /* Rosa oscuro */
+    margin-bottom: 16px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .details {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .video,
+  .content {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .video {
+    outline: none;
+  }
+  

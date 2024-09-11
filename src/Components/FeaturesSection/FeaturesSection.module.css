@@ -1,0 +1,50 @@
+/* src/components/FeaturesSection.module.css */
+.featuresSection {
+  background-color: whitesmoke;
+  padding: 80px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.headings{
+  text-align: left;
+  width: 100%;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #0b1a2d;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  background-color: #ffb01c;
+  display: inline;
+  padding: 5px;
+  color: #0b1a2d;
+  font-weight: 700;
+}
+
+.featuresContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .featuresContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}

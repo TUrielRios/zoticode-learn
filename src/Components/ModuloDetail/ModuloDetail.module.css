@@ -1,0 +1,56 @@
+/* ModuloDetail.module.css */
+
+.container {
+    background-color: #fffde7; /* Fondo amarillo claro */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    font-size: 1.8rem;
+    color: #f57f17; /* Naranja oscuro */
+    margin-bottom: 16px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .activityList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .activityItem {
+    margin: 12px 0;
+  }
+  
+  .activityButton {
+    background-color: #ffca28; /* Amarillo moderno */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .activityButton:hover {
+    background-color: #ffb300; /* Amarillo más oscuro */
+    transform: translateY(-2px);
+  }
+  
+  .activityButton:active {
+    background-color: #ffa000; /* Amarillo aún más oscuro */
+    transform: translateY(0);
+  }
+  

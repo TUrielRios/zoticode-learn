@@ -1,0 +1,48 @@
+/* src/components/CourseCard.module.css */
+.courseCard {
+    background-color: #f5f8ef;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .courseType {
+    font-size: 0.9rem;
+    color: #7d9b5b;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+    color: #4a4a4a;
+    margin-bottom: 15px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: #4a4a4a;
+  }
+  
+  .level {
+    display: flex;
+    align-items: center;
+  }
+  
+  .duration {
+    display: flex;
+    align-items: center;
+  }
+  

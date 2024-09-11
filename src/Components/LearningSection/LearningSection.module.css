@@ -1,0 +1,90 @@
+/* LearningSection.module.css */
+.sectionContainer {
+    display: flex;
+    background-color: #0b0d17;
+    color: #ffffff;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .leftPanel {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #b0b3c6;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .infoBox {
+    background-color: #1c1e2b;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .infoTitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .featuresList {
+    list-style-type: none;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .button {
+    background-color: #ffce00;
+    color: #0b0d17;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #e5b800;
+  }
+  
+  .rightPanel {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  

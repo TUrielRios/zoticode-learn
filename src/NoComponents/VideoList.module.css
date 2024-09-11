@@ -1,0 +1,35 @@
+.videoList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: white;
+  }
+  
+  .videoItem {
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+
+  }
+  
+  .videoItem:hover {
+    transform: scale(1.05);
+  }
+  
+  .thumbnail {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+  }
+  
+  .title {
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+  
