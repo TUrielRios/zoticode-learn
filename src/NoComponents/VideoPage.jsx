@@ -1,15 +1,14 @@
+// src/VideoPage.jsx
 import React, { useState } from 'react';
 import VideoList from './VideoList.jsx';
 import VideoPlayer from './VideoPlayer.jsx';
-import clonePng from '../ClasesGrabadas/clonGoogle.png';
 
 import styles from './VideoPage.module.css';
 
 const videosData = [
-  { id: 1, title: "Clase 1: Clon de Google con HTML y CSS", url: "", thumbnail: clonePng, description: "En esta clase, aprenderemos los conceptos básicos de HTML." },
-  { id: 2, title: "Clon de login form parte uno", url: "", description: "En esta clase, aprenderemos los fundamentos de CSS." },
-  { id: 3, title: "Clon de login form parte dos", url: "", description: "En esta clase, aprenderemos los fundamentos de CSS." },
-  { id: 4, title: "Clon de login form parte tres", url: "", description: "En esta clase, aprenderemos los fundamentos de CSS." }
+  { id: 2, title: "Clon de login form parte uno", url: "https://vimeo.com/1008266300", description: "En esta clase, aprenderemos los fundamentos de CSS." },
+  { id: 3, title: "Clon de login form parte dos", url: "https://vimeo.com/1008266670", description: "En esta clase, aprenderemos los fundamentos de CSS." },
+  { id: 4, title: "Clon de login form parte tres", url: "https://vimeo.com/1008266871", description: "En esta clase, aprenderemos los fundamentos de CSS." }
 ];
 
 const VideoPage = () => {
@@ -19,7 +18,7 @@ const VideoPage = () => {
     <div>
       <main className={styles.mainContainer}>
         <VideoList videos={videosData} onVideoSelect={setSelectedVideo} />
-        <VideoPlayer selectedVideo={selectedVideo} />
+        <VideoPlayer video={selectedVideo} />
       </main>
     </div>
   );
