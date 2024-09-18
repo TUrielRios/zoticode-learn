@@ -1,0 +1,18 @@
+  .lessonContainer {
+    display: flex;
+    height: 100vh;
+    margin-top: 100px;
+    width: 95%;
+    justify-content: space-between;
+  }
+
+  .readingSection {
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+    background-color: white;
+    width: 40%;
+  }
+
+
+  

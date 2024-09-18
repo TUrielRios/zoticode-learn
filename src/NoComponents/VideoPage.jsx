@@ -8,7 +8,9 @@ import styles from './VideoPage.module.css';
 const videosData = [
   { id: 2, title: "Clon de login form parte uno", url: "https://vimeo.com/1008266300", description: "En esta clase, aprenderemos los fundamentos de CSS." },
   { id: 3, title: "Clon de login form parte dos", url: "https://vimeo.com/1008266670", description: "En esta clase, aprenderemos los fundamentos de CSS." },
-  { id: 4, title: "Clon de login form parte tres", url: "https://vimeo.com/1008266871", description: "En esta clase, aprenderemos los fundamentos de CSS." }
+  { id: 4, title: "Clon de login form parte tres", url: "https://vimeo.com/1008266871", description: "En esta clase, aprenderemos los fundamentos de CSS." },
+  { id: 5, title: "Clon de Landing Page ", url: "https://vimeo.com/1010782744", description: "En esta clase, aprenderemos los fundamentos de CSS." }
+
 ];
 
 const VideoPage = () => {

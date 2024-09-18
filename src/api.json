@@ -18,7 +18,195 @@
         "foto": "instructores/juan-perez.jpg",
         "biografia": "Juan ha trabajado en diversas startups tecnológicas, impartiendo talleres y cursos de desarrollo web."
       },
-      "imagen": "Cursos/HTML/1.jpg",
+      "imagen": "https://res-console.cloudinary.com/dhiss395i/media_explorer_thumbnails/fa2ccae473b51e9c6032fb165bb476df/detailed",
+      "recursosIncluidos": [
+        "Asistencia de IA para ayuda en la codificación guiada",
+        "Proyectos para aplicar nuevas habilidades",
+        "Cuestionarios para probar tus conocimientos",
+        "Certificado de finalización"
+      ],
+      "prerrequisitos": "Ninguno",
+      "habilidadesGanadas": [
+        "Escribir y estructurar documentos HTML",
+        "Diseñar formularios interactivos",
+        "Utilizar etiquetas HTML avanzadas"
+      ],
+      "modulos": [
+        {
+          "id": 1,
+          "titulo": "Introducción a HTML",
+          "descripcion": "Historia, evolución, y conceptos básicos de HTML.",
+          "duracion": "2 horas",
+          "actividades": [
+            {
+              "id": 1,
+              "nombre": "Lectura: Historia de HTML",
+              "tipo": "lectura",
+              "contenido": "lecturas/html-historia.md"
+            },
+            {
+              "id": 2,
+              "nombre": "Ejercicio: Crea un documento HTML básico",
+              "tipo": "ejercicio",
+              "contenido": "ejercicios/html-basico.md"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "titulo": "Elementos Básicos de HTML",
+          "descripcion": "Aprende a utilizar elementos básicos como texto, imágenes y enlaces.",
+          "duracion": "3 horas",
+          "actividades": [
+            {
+              "id": 3,
+              "nombre": "Lectura: Estructura y Etiquetas Básicas de HTML",
+              "tipo": "lectura",
+              "contenido": "lecturas/html-basico.md"
+            },
+            {
+              "id": 4,
+              "nombre": "Ejercicio: Crea una página HTML con elementos básicos",
+              "tipo": "ejercicio",
+              "contenido": "ejercicios/html-elementos-basicos.md"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "titulo": "Formularios en HTML",
+          "descripcion": "Crea formularios interactivos y aprende a validar entradas de usuario.",
+          "duracion": "3 horas",
+          "actividades": [
+            {
+              "id": 5,
+              "nombre": "Lectura: Introducción a Formularios en HTML",
+              "tipo": "lectura",
+              "contenido": "lecturas/html-formularios.md"
+            },
+            {
+              "id": 6,
+              "nombre": "Ejercicio: Construir un formulario de contacto",
+              "tipo": "ejercicio",
+              "contenido": "ejercicios/html-formulario-contacto.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Curso de HTML: De Principiante a Experto",
+      "descripcion": "Aprende los fundamentos de HTML desde lo básico hasta temas avanzados para construir páginas web estáticas y dinámicas.",
+      "nivel": "Principiante a Experto",
+      "duracion": "8 horas",
+      "idioma": "Español",
+      "numeroDeModulos": 3,
+      "precio": "Gratis",
+      "calificacion": 4.8,
+      "numeroDeOpiniones": 9275,
+      "numeroDeEstudiantes": 2568462,
+      "instructor": {
+        "nombre": "Juan Pérez",
+        "experiencia": "Desarrollador web con 10 años de experiencia en HTML, CSS y JavaScript.",
+        "foto": "instructores/juan-perez.jpg",
+        "biografia": "Juan ha trabajado en diversas startups tecnológicas, impartiendo talleres y cursos de desarrollo web."
+      },
+      "imagen": "https://res-console.cloudinary.com/dhiss395i/media_explorer_thumbnails/fa2ccae473b51e9c6032fb165bb476df/detailed",
+      "recursosIncluidos": [
+        "Asistencia de IA para ayuda en la codificación guiada",
+        "Proyectos para aplicar nuevas habilidades",
+        "Cuestionarios para probar tus conocimientos",
+        "Certificado de finalización"
+      ],
+      "prerrequisitos": "Ninguno",
+      "habilidadesGanadas": [
+        "Escribir y estructurar documentos HTML",
+        "Diseñar formularios interactivos",
+        "Utilizar etiquetas HTML avanzadas"
+      ],
+      "modulos": [
+        {
+          "id": 1,
+          "titulo": "Introducción a HTML",
+          "descripcion": "Historia, evolución, y conceptos básicos de HTML.",
+          "duracion": "2 horas",
+          "actividades": [
+            {
+              "id": 1,
+              "nombre": "Lectura: Historia de HTML",
+              "tipo": "lectura",
+              "contenido": "lecturas/html-historia.md"
+            },
+            {
+              "id": 2,
+              "nombre": "Ejercicio: Crea un documento HTML básico",
+              "tipo": "ejercicio",
+              "contenido": "ejercicios/html-basico.md"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "titulo": "Elementos Básicos de HTML",
+          "descripcion": "Aprende a utilizar elementos básicos como texto, imágenes y enlaces.",
+          "duracion": "3 horas",
+          "actividades": [
+            {
+              "id": 3,
+              "nombre": "Lectura: Estructura y Etiquetas Básicas de HTML",
+              "tipo": "lectura",
+              "contenido": "lecturas/html-basico.md"
+            },
+            {
+              "id": 4,
+              "nombre": "Ejercicio: Crea una página HTML con elementos básicos",
+              "tipo": "ejercicio",
+              "contenido": "ejercicios/html-elementos-basicos.md"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "titulo": "Formularios en HTML",
+          "descripcion": "Crea formularios interactivos y aprende a validar entradas de usuario.",
+          "duracion": "3 horas",
+          "actividades": [
+            {
+              "id": 5,
+              "nombre": "Lectura: Introducción a Formularios en HTML",
+              "tipo": "lectura",
+              "contenido": "lecturas/html-formularios.md"
+            },
+            {
+              "id": 6,
+              "nombre": "Ejercicio: Construir un formulario de contacto",
+              "tipo": "ejercicio",
+              "contenido": "ejercicios/html-formulario-contacto.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Curso de HTML: De Principiante a Experto",
+      "descripcion": "Aprende los fundamentos de HTML desde lo básico hasta temas avanzados para construir páginas web estáticas y dinámicas.",
+      "nivel": "Principiante a Experto",
+      "duracion": "8 horas",
+      "idioma": "Español",
+      "numeroDeModulos": 3,
+      "precio": "Gratis",
+      "calificacion": 4.8,
+      "numeroDeOpiniones": 9275,
+      "numeroDeEstudiantes": 2568462,
+      "instructor": {
+        "nombre": "Juan Pérez",
+        "experiencia": "Desarrollador web con 10 años de experiencia en HTML, CSS y JavaScript.",
+        "foto": "instructores/juan-perez.jpg",
+        "biografia": "Juan ha trabajado en diversas startups tecnológicas, impartiendo talleres y cursos de desarrollo web."
+      },
+      "imagen": "https://res-console.cloudinary.com/dhiss395i/media_explorer_thumbnails/fa2ccae473b51e9c6032fb165bb476df/detailed",
       "recursosIncluidos": [
         "Asistencia de IA para ayuda en la codificación guiada",
         "Proyectos para aplicar nuevas habilidades",

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './CursoList.module.css'; // Importamos el módulo CSS
+import styles from './CursoList.module.css'; 
 
 const CursoList = ({ cursos, onSelectCurso }) => {
   return (
@@ -10,9 +10,13 @@ const CursoList = ({ cursos, onSelectCurso }) => {
           <li key={curso.id} className={styles.courseItem}>
             <button 
               className={styles.courseButton} 
-              onClick={() => onSelectCurso(curso.id)}
+              onClick={() => onSelectCurso(curso.id)} // Mantener la llamada a la función
             >
-              {curso.nombre}
+              <div>
+                <span className={styles.courseName}>{curso.nombre}</span>
+                <p>{curso.descripcion}</p>
+                <div>{curso.duracion} horas</div>
+              </div>
             </button>
           </li>
         ))}
